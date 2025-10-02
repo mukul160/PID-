@@ -24,7 +24,8 @@ The series progresses in complexity:
    - State-space representation and discrete-time simulation  
    - Setting the stage for advanced control methods like LQR
 
-# About
+
+## About
 This repository is intended for learning and demonstration purposes. Each simulation is accompanied by code comments explaining the PID implementation and system dynamics.
 Feel free to experiment with the parameters, try different PID gains, or extend the models to explore control systems further.
 
