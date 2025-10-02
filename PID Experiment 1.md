@@ -96,7 +96,8 @@ $K_d$ = 0.01
 $dt$ = 0.1        
 sim_time = 150  
 
-![[Pasted image 20250927151927.png]]
+![Description](Assets/1.png)
+
 
 With the following parameters:
 setpoint = 200   
@@ -152,3 +153,6 @@ sim_time = 150
 - Even this basic motor model can be extended to include inertia, friction, or saturation effects to make it more realistic.
 - In the next PID experiment, we'll see how to write a PID class and implement it for temperature control when the system's own dynamics threaten to destabilise your setpoint.
 
+## References
+
+- https://www.digikey.com/en/maker/tutorials/2024/how-to-simulate-a-pid-controller-in-python-for-a-dc-motor
