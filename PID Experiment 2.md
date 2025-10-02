@@ -148,7 +148,7 @@ plt.show()
 - Setpoint = 250 °C
 
 This curve is rather ideal, wouldn't you say?
-![[Pasted image 20250928152759.png]]
+![Image](Assets/7.png)
 
 
 - $K_p$ = 1.0
@@ -157,7 +157,7 @@ This curve is rather ideal, wouldn't you say?
 - Setpoint = 250 °C
 
 Turning down $K_i$ causes the curve to not reach its setpoint in 30 seconds.  
-![[Pasted image 20250928152948.png]]
+![Image](Assets/8.png)
 
 - $K_p$ = 0.5
 - $K_i$ = 0.8
@@ -165,7 +165,7 @@ Turning down $K_i$ causes the curve to not reach its setpoint in 30 seconds.
 - Setpoint = 250 °C
 
 A low $K_p$ and a high $K_i$ induces a wild overshoot.  
-![[Pasted image 20250928153413.png]]
+![Image](Assets/9.png)
 
 - $K_p$ = 0.5
 - $K_i$ = 0.8
@@ -173,7 +173,7 @@ A low $K_p$ and a high $K_i$ induces a wild overshoot.
 - Setpoint = 250 °C
 
 You can see that we reduced overshoot from 350 °C to 300 °C by turning up $K_d$ , but amplified high-frequency noise in the process. Be extra-careful while fidgeting with $K_d$, I'd say it's best to tune $K_p$ and $K_i$ before touching $K_d$.  
-![[Pasted image 20250928153755.png]]
+![Image](Assets/10.png)
 
 ## Key Takeaways
 
@@ -181,3 +181,5 @@ You can see that we reduced overshoot from 350 °C to 300 °C by turning up $K_d
 - Unlike the motor speed example, this experiment introduces **process dynamics** that resist the controller. This makes tuning more meaningful and shows why PID is so widely used in thermal applications.
 
 In the next experiment, we'll see how a first-order system would perform with and without the presence of a closed-loop controller like the PID. 
+
+---

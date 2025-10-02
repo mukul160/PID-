@@ -138,9 +138,9 @@ With the system parameters:
 	b = 5.0 Damping Coefficient (Ns/m)
 	u = 10.0 Constant Applied Force (N)
 
-![[Pasted image 20251001164429.png]]
+![Image](Assets/15.png)
 Doubling the force to 20 N yields:
-![[Pasted image 20251001164709.png]]
+![Image](Assets/16.png)
 
 @ 	 
 	m = 1.0  Mass (kg)
@@ -148,7 +148,7 @@ Doubling the force to 20 N yields:
 	b = 5.0 Damping Coefficient (Ns/m)
 	u = 10.0 Constant Applied Force (N)
 
-![[Pasted image 20251001165007.png]]
+![Image](Assets/17.png)
 
 ---
 ## Key Takeaways

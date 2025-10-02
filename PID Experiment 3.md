@@ -103,10 +103,10 @@ In practical terms, this is why industrial heating systems always use closed-loo
 
 In this graph, orange represents closed-loop control, blue represents open-loop control. The setpoint stands at is 320K.
 
-![[Pasted image 20250930155239.png]]
+![Image](Assets/12.png)
 
 At Setpoint = 400K
-![[Pasted image 20250930160245.png]]
+![Image](Assets/13.png)
 
 In the upcoming article, we'll conclude our discussion of PID with a simulation of a classical spring-mass damper system. That'll give us the groundwork for diving into more advanced control topics such as LQR.
 

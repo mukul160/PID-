@@ -96,7 +96,7 @@ $K_d$ = 0.01
 $dt$ = 0.1        
 sim_time = 150  
 
-![Description](Assets/1.png)
+![Image](Assets/1.png)
 
 
 With the following parameters:
@@ -108,7 +108,7 @@ $dt$ = 0.1
 sim_time = 150  
 - Slower system response with decreased aggressiveness in correcting errors.
 
-![[Pasted image 20250927152815.png]]
+![Image](Assets/2.png)
 
 With the following parameters:
 setpoint = 200   
@@ -119,7 +119,7 @@ $dt$ = 0.1
 sim_time = 150  
 - Since this is a simple system with no external dynamics, dropping $K_i$ to 0 does not introduce a steady state error. It merely lengthens the time taken to reach steady state. 
 
-![[Pasted image 20250927153907.png]]
+![Image](Assets/3.png)
 
 With the following parameters:
 setpoint = 200   
@@ -130,10 +130,10 @@ $dt$ = 0.1
 sim_time = 150  
 - If your $K_p$ is quite low, turning up $K_i$ will induce wild oscillations like below. Turning up $K_p$ to 0.9 will alleviate the oscillations, but may overtax the physical system.   
 
-![[Pasted image 20250927154005.png]]
+![Image](Assets/4.png)
 
 With $K_p$ turned up to 0.9:
-![[Pasted image 20250927154237.png]]
+![Image](Assets/5.png)
 
 $K_d$ is useful for dampening oscillations. When you can't turn up $K_p$ because the system feels too twitchy, turn up $K_d$ instead. But don't overdo it! It will amplify high frequency noise in the error signal, causing the controller to oscillate wildly. 
 
@@ -145,7 +145,7 @@ $K_d$ = 0.99
 $dt$ = 0.1        
 sim_time = 150 
 
-![[Pasted image 20250927155208.png]]
+![Image](Assets/6.png)
 
 
 ## Takeaways
@@ -153,6 +153,4 @@ sim_time = 150
 - Even this basic motor model can be extended to include inertia, friction, or saturation effects to make it more realistic.
 - In the next PID experiment, we'll see how to write a PID class and implement it for temperature control when the system's own dynamics threaten to destabilise your setpoint.
 
-## References
-
-- https://www.digikey.com/en/maker/tutorials/2024/how-to-simulate-a-pid-controller-in-python-for-a-dc-motor
+---
