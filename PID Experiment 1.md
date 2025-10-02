@@ -106,6 +106,7 @@ $K_i$ = 0.002
 $K_d$ = 0.01       
 $dt$ = 0.1        
 sim_time = 150  
+
 - Slower system response with decreased aggressiveness in correcting errors.
 
 ![Image](Assets/2.png)
@@ -117,7 +118,9 @@ $K_i$ = 0
 $K_d$ = 0.01       
 $dt$ = 0.1        
 sim_time = 150  
+
 - Since this is a simple system with no external dynamics, dropping $K_i$ to 0 does not introduce a steady state error. It merely lengthens the time taken to reach steady state. 
+
 
 ![Image](Assets/3.png)
 
@@ -128,11 +131,14 @@ $K_i$ = 0.5
 $K_d$ = 0.01       
 $dt$ = 0.1        
 sim_time = 150  
+
 - If your $K_p$ is quite low, turning up $K_i$ will induce wild oscillations like below. Turning up $K_p$ to 0.9 will alleviate the oscillations, but may overtax the physical system.   
+
 
 ![Image](Assets/4.png)
 
 With $K_p$ turned up to 0.9:
+
 ![Image](Assets/5.png)
 
 $K_d$ is useful for dampening oscillations. When you can't turn up $K_p$ because the system feels too twitchy, turn up $K_d$ instead. But don't overdo it! It will amplify high frequency noise in the error signal, causing the controller to oscillate wildly. 

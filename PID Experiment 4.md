@@ -139,7 +139,9 @@ With the system parameters:
 	u = 10.0 Constant Applied Force (N)
 
 ![Image](Assets/15.png)
+
 Doubling the force to 20 N yields:
+
 ![Image](Assets/16.png)
 
 @ 	 
@@ -147,6 +149,7 @@ Doubling the force to 20 N yields:
 	k = 20.0 Spring Constant (N/m)
 	b = 5.0 Damping Coefficient (Ns/m)
 	u = 10.0 Constant Applied Force (N)
+	
 
 ![Image](Assets/17.png)
 
