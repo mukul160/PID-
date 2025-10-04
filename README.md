@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PID-101 📐
 
 A hands-on series of Python simulations + explanations to understand PID (Proportional-Integral-Derivative) control. Ideal for engineering students, hobbyists, or anyone curious about control systems.
@@ -8,15 +7,14 @@ A hands-on series of Python simulations + explanations to understand PID (Propor
 ## 🔍 Table of Contents
 
 1. [About](#about)  
-2. [Structure](#structure)  
-3. [What You’ll Learn](#what-youll-learn)  
-4. [How to Use This Repo](#how-to-use-this-repo)  
-5. [Experiments / Simulations](#experiments--simulations)  
-6. [Play & Extend](#play--extend)  
-7. [Prerequisites](#prerequisites)  
-8. [Getting Started](#getting-started)  
-9. [Contributing](#contributing)  
-10. [License & Contact](#license--contact)
+2. [What You’ll Learn](#what-youll-learn)  
+3. [How to Use This Repo](#how-to-use-this-repo)  
+4. [Experiments / Simulations](#experiments--simulations)  
+5. [Play & Extend](#play--extend)  
+6. [Prerequisites](#prerequisites)  
+7. [Getting Started](#getting-started)  
+8. [Contributing](#contributing)  
+9. [License & Contact](#license--contact)
 
 ---
 
@@ -29,27 +27,6 @@ This repository is a learning resource with code + commentary to help you unders
 - Comparing open vs closed loop systems  
 - Moving from first-order systems to second-order, thermal, mechanical, etc.
 
----
-
-## 🗂 Structure
-
-PID-101/  
-│  
-├── Control/
-│ ├── 1_first_order_dc_motor/  
-│ ├── 2_thermal_systems/  
-│ ├── 3_open_closed_loop/  
-│ └── 4_spring_mass_damper/  
-│  
-├── README.md  
-├── LICENSE  
-└── assets/  
-
-
-The experiment folder contains:
-
-- `.py` and `.pynb` simulation code  
-- A short write-up (markdown) explaining the model, the PID implementation, and what to observe.
 
 ---
 
@@ -117,37 +94,5 @@ Want to add more systems or experiments (e.g. robotics, fluid dynamics)? Pull re
 
 This work is licensed under the MIT License.  
 Questions, suggestions, or collaboration ideas? Contact: mukuly.2001@gmail.com
-=======
-# PID 101
-
-This repository contains a series of Python simulations and accompanying explanations exploring **PID control** in a variety of systems. The goal is to help engineering students and enthusiasts understand how PID controllers work, and how to implement them in code.
-
-The series progresses in complexity:
-
-1. **First-Order Systems**  
-   - Simple DC motor speed control  
-   - Translating PID equations from theory to Python  
-   - Observing the role of P, I, and D terms
-
-2. **Thermal Systems**  
-   - Temperature control with heating and cooling dynamics  
-   - Modeling first-order thermal processes  
-   - Introducing environmental losses and setpoint tracking
-
-3. **Open-Loop vs Closed-Loop Comparison**  
-   - Demonstrates why feedback is critical  
-   - PID control vs fixed-input heating  
-   - Observing overshoot, steady-state error, and system response
-
-4. **Spring–Mass–Damper Systems**  
-   - Simulating second-order dynamics  
-   - State-space representation and discrete-time simulation  
-   - Setting the stage for advanced control methods like LQR
-
-
-## About
-This repository is intended for learning and demonstration purposes. Each simulation is accompanied by code comments explaining the PID implementation and system dynamics.
-Feel free to experiment with the parameters, try different PID gains, or extend the models to explore control systems further.
->>>>>>> refs/remotes/origin/master
 
 ---
